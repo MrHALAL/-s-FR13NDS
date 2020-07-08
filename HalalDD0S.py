@@ -1,8 +1,8 @@
 import socket
 from threading import Thread
 
-host = www.stressthem.to
-ip = socket.gethostbyname(host)
+host = "192.168.0.1"
+ip = host
 port = 80
 
 def dos():
