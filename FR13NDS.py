@@ -5,7 +5,7 @@ from threading import Thread
 import random
 from termcolor import colored
 
-print(colored( ''','#FF0000'))
+print(colored( ''','red'))
  ________  _______     __     ______   __    __  _______    ______  
 /        |/       \  _/  |   /      \ /  \  /  |/       \  /      \ 
 $$$$$$$$/ $$$$$$$  |/ $$ |  /$$$$$$  |$$  \ $$ |$$$$$$$  |/$$$$$$  |
@@ -17,11 +17,11 @@ $$ |      $$ |  $$ |/ $$   |$$    $$/ $$ | $$$ |$$    $$/ $$    $$/
 $$/       $$/   $$/ $$$$$$/  $$$$$$/  $$/   $$/ $$$$$$$/   $$$$$$/  
                                                                     
 		      Created By @fr13nds_ch3f
-''','#FF0000'))
+''','red'))
 
 
-phone = input(colored('Telefonnummer eingeben>>: ','#FF0000'))
-countT = input(colored('Anzahl eingeben>>: ','#FF0000'))
+phone = input(colored('Telefonnummer eingeben>>: ','red'))
+countT = input(colored('Anzahl eingeben>>: ','red'))
 
 
 iteration = 0
